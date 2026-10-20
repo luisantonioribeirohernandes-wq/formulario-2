@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(244, 244, 193);
+}
+
+.container {
+    border: 1px solid rgb(199, 212, 202);
+    max-width: 500px;
+    margin:0 auto;
+    padding: 20px;
+    background-color: rgb(177, 182, 244);
+    border-radius: 15px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: block;
+}
+
+
+.form-control input[type="text"] 
+.form-control input[type="number"] 
+.form-control input[type="password"] {
+    width: 100%;
+    padding: 8px
+}
+
+.opcoes label {
+    display: inline;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 39, 24);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1.0s all;
+}
+
+button:hover {
+    background-color: red;
+}
